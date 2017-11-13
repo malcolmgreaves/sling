@@ -18,7 +18,7 @@ cc_library(
   ],
   linkopts = [
     "-lpython2.7",
-    "-l:/usr/local/lib/python2.7/dist-packages/tensorflow/python/_pywrap_tensorflow_internal.so",
+    "-l:/home/malcolm/dev/env/miniconda3/envs/sling/lib/python2.7/site-packages/tensorflow/python/_pywrap_tensorflow_internal.so",
   ],
 )
 
